@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DZSinglonFactory', :exclusive => true do
+  pod "DZSinglonFactory", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DZSinglonFactory", :path => "../"
+
+  
+end

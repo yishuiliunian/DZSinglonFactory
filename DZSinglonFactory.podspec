@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZSinglonFactory"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "快速创建一个单例"
   s.description      = <<-DESC
                        快速创建一个单例,相当快速
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/yishuiliunian/DZSinglonFactory.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '4.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'

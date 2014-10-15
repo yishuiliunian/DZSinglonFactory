@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "DZSinglonFactory"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DZSinglonFactory."
+  s.summary          = "快速创建一个单例"
   s.description      = <<-DESC
-                       An optional longer description of DZSinglonFactory
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       快速创建一个单例,相当快速
                        DESC
   s.homepage         = "https://github.com/yishuiliunian/DZSinglonFactory"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

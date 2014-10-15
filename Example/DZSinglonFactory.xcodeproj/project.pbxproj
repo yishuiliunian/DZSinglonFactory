@@ -22,8 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		653912C619EE18D100676D2A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 653912C519EE18D100676D2A /* .gitkeep */; };
-		653912C919EE191500676D2A /* DZSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 653912C819EE191500676D2A /* DZSingletonFactory.m */; };
+		653912CE19EE1D3100676D2A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 653912CB19EE1D3100676D2A /* .gitkeep */; };
+		653912CF19EE1D3100676D2A /* DZSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 653912CD19EE1D3100676D2A /* DZSingletonFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		653912C519EE18D100676D2A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		653912C719EE191500676D2A /* DZSingletonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSingletonFactory.h; sourceTree = "<group>"; };
-		653912C819EE191500676D2A /* DZSingletonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSingletonFactory.m; sourceTree = "<group>"; };
+		653912CB19EE1D3100676D2A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		653912CC19EE1D3100676D2A /* DZSingletonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSingletonFactory.h; sourceTree = "<group>"; };
+		653912CD19EE1D3100676D2A /* DZSingletonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSingletonFactory.m; sourceTree = "<group>"; };
 		6ED1233942814985AF30499E /* DZSinglonFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DZSinglonFactory.podspec; path = ../DZSinglonFactory.podspec; sourceTree = "<group>"; };
 		C49BDD79631B49ECAB822FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9D9C75A5DAA45C6BA6F55D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		6003F593195388D20070C39A /* DZSinglonFactory */ = {
 			isa = PBXGroup;
 			children = (
-				653912C419EE18D100676D2A /* Classes */,
+				653912CA19EE1D3100676D2A /* Classes */,
 				6003F59C195388D20070C39A /* DZAppDelegate.h */,
 				6003F59D195388D20070C39A /* DZAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -177,14 +177,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		653912C419EE18D100676D2A /* Classes */ = {
+		653912CA19EE1D3100676D2A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				653912C719EE191500676D2A /* DZSingletonFactory.h */,
-				653912C819EE191500676D2A /* DZSingletonFactory.m */,
-				653912C519EE18D100676D2A /* .gitkeep */,
+				653912CB19EE1D3100676D2A /* .gitkeep */,
+				653912CC19EE1D3100676D2A /* DZSingletonFactory.h */,
+				653912CD19EE1D3100676D2A /* DZSingletonFactory.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Pod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +267,7 @@
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				653912C619EE18D100676D2A /* .gitkeep in Resources */,
+				653912CE19EE1D3100676D2A /* .gitkeep in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -287,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653912C919EE191500676D2A /* DZSingletonFactory.m in Sources */,
+				653912CF19EE1D3100676D2A /* DZSingletonFactory.m in Sources */,
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

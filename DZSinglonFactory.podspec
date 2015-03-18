@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZSinglonFactory"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "快速创建一个单例"
   s.description      = <<-DESC
                        快速创建一个单例,相当快速
@@ -25,12 +25,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
 
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'DZSinglonFactory' => ['Pod/Assets/*.png']
-  }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

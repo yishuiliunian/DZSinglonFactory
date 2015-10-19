@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZSinglonFactory"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "快速创建一个单例"
   s.description      = <<-DESC
                        快速创建一个单例,相当快速

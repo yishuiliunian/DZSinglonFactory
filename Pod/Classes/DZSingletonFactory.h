@@ -17,7 +17,12 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
-    
+
+#define IMP_SINGLONTON_SHARE_MANAGER(cla) +(cla *) shareManager \
+{ return DZSingleForClass([self class]); }
+
+#define DEFINE_SINGLONTON_SHARE_MANAGER(cla) +(cla *) shareManager;
+
 @interface DZSingletonFactory : NSObject
 
 + (DZSingletonFactory*) shareFactory;

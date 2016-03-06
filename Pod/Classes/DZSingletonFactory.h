@@ -23,6 +23,14 @@ extern "C" {
 
 #define DEFINE_SINGLONTON_SHARE_MANAGER(cla) +(cla *) shareManager;
 
+#define EXTERN_SHARE_MANAGER + (instancetype) shareManager;
+
+#define DEFINE_SINGLETON_MANAGER \
++ (instancetype) shareManager \
+{\
+return DZSingleForClass(self); \
+}
+
 @interface DZSingletonFactory : NSObject
 
 + (DZSingletonFactory*) shareFactory;
